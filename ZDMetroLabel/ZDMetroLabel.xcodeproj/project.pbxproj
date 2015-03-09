@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB448AAC1AADB2D000CAE187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB448AAB1AADB2D000CAE187 /* AppDelegate.swift */; };
+		BB448AAE1AADB2D000CAE187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB448AAD1AADB2D000CAE187 /* ViewController.swift */; };
+		BB448AB11AADB2D000CAE187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB448AAF1AADB2D000CAE187 /* Main.storyboard */; };
+		BB448AB31AADB2D000CAE187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB448AB21AADB2D000CAE187 /* Images.xcassets */; };
+		BB448AB61AADB2D000CAE187 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB448AB41AADB2D000CAE187 /* LaunchScreen.xib */; };
+		BB448AC21AADB2D000CAE187 /* ZDMetroLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB448AC11AADB2D000CAE187 /* ZDMetroLabelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB448ABC1AADB2D000CAE187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB448A9E1AADB2D000CAE187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB448AA51AADB2D000CAE187;
+			remoteInfo = ZDMetroLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB448AA61AADB2D000CAE187 /* ZDMetroLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDMetroLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB448AAA1AADB2D000CAE187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB448AAB1AADB2D000CAE187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB448AAD1AADB2D000CAE187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB448AB01AADB2D000CAE187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB448AB21AADB2D000CAE187 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB448AB51AADB2D000CAE187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB448ABB1AADB2D000CAE187 /* ZDMetroLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDMetroLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB448AC01AADB2D000CAE187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB448AC11AADB2D000CAE187 /* ZDMetroLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDMetroLabelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB448AA31AADB2D000CAE187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB448AB81AADB2D000CAE187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB448A9D1AADB2D000CAE187 = {
+			isa = PBXGroup;
+			children = (
+				BB448AA81AADB2D000CAE187 /* ZDMetroLabel */,
+				BB448ABE1AADB2D000CAE187 /* ZDMetroLabelTests */,
+				BB448AA71AADB2D000CAE187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB448AA71AADB2D000CAE187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB448AA61AADB2D000CAE187 /* ZDMetroLabel.app */,
+				BB448ABB1AADB2D000CAE187 /* ZDMetroLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB448AA81AADB2D000CAE187 /* ZDMetroLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BB448AAB1AADB2D000CAE187 /* AppDelegate.swift */,
+				BB448AAD1AADB2D000CAE187 /* ViewController.swift */,
+				BB448AAF1AADB2D000CAE187 /* Main.storyboard */,
+				BB448AB21AADB2D000CAE187 /* Images.xcassets */,
+				BB448AB41AADB2D000CAE187 /* LaunchScreen.xib */,
+				BB448AA91AADB2D000CAE187 /* Supporting Files */,
+			);
+			path = ZDMetroLabel;
+			sourceTree = "<group>";
+		};
+		BB448AA91AADB2D000CAE187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB448AAA1AADB2D000CAE187 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB448ABE1AADB2D000CAE187 /* ZDMetroLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB448AC11AADB2D000CAE187 /* ZDMetroLabelTests.swift */,
+				BB448ABF1AADB2D000CAE187 /* Supporting Files */,
+			);
+			path = ZDMetroLabelTests;
+			sourceTree = "<group>";
+		};
+		BB448ABF1AADB2D000CAE187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB448AC01AADB2D000CAE187 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB448AA51AADB2D000CAE187 /* ZDMetroLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB448AC51AADB2D000CAE187 /* Build configuration list for PBXNativeTarget "ZDMetroLabel" */;
+			buildPhases = (
+				BB448AA21AADB2D000CAE187 /* Sources */,
+				BB448AA31AADB2D000CAE187 /* Frameworks */,
+				BB448AA41AADB2D000CAE187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDMetroLabel;
+			productName = ZDMetroLabel;
+			productReference = BB448AA61AADB2D000CAE187 /* ZDMetroLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB448ABA1AADB2D000CAE187 /* ZDMetroLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB448AC81AADB2D000CAE187 /* Build configuration list for PBXNativeTarget "ZDMetroLabelTests" */;
+			buildPhases = (
+				BB448AB71AADB2D000CAE187 /* Sources */,
+				BB448AB81AADB2D000CAE187 /* Frameworks */,
+				BB448AB91AADB2D000CAE187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB448ABD1AADB2D000CAE187 /* PBXTargetDependency */,
+			);
+			name = ZDMetroLabelTests;
+			productName = ZDMetroLabelTests;
+			productReference = BB448ABB1AADB2D000CAE187 /* ZDMetroLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB448A9E1AADB2D000CAE187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ZD;
+				TargetAttributes = {
+					BB448AA51AADB2D000CAE187 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BB448ABA1AADB2D000CAE187 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BB448AA51AADB2D000CAE187;
+					};
+				};
+			};
+			buildConfigurationList = BB448AA11AADB2D000CAE187 /* Build configuration list for PBXProject "ZDMetroLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB448A9D1AADB2D000CAE187;
+			productRefGroup = BB448AA71AADB2D000CAE187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB448AA51AADB2D000CAE187 /* ZDMetroLabel */,
+				BB448ABA1AADB2D000CAE187 /* ZDMetroLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB448AA41AADB2D000CAE187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB448AB11AADB2D000CAE187 /* Main.storyboard in Resources */,
+				BB448AB61AADB2D000CAE187 /* LaunchScreen.xib in Resources */,
+				BB448AB31AADB2D000CAE187 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB448AB91AADB2D000CAE187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB448AA21AADB2D000CAE187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB448AAE1AADB2D000CAE187 /* ViewController.swift in Sources */,
+				BB448AAC1AADB2D000CAE187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB448AB71AADB2D000CAE187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB448AC21AADB2D000CAE187 /* ZDMetroLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB448ABD1AADB2D000CAE187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB448AA51AADB2D000CAE187 /* ZDMetroLabel */;
+			targetProxy = BB448ABC1AADB2D000CAE187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB448AAF1AADB2D000CAE187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB448AB01AADB2D000CAE187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB448AB41AADB2D000CAE187 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB448AB51AADB2D000CAE187 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB448AC31AADB2D000CAE187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB448AC41AADB2D000CAE187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB448AC61AADB2D000CAE187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDMetroLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB448AC71AADB2D000CAE187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDMetroLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB448AC91AADB2D000CAE187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZDMetroLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDMetroLabel.app/ZDMetroLabel";
+			};
+			name = Debug;
+		};
+		BB448ACA1AADB2D000CAE187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZDMetroLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDMetroLabel.app/ZDMetroLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB448AA11AADB2D000CAE187 /* Build configuration list for PBXProject "ZDMetroLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB448AC31AADB2D000CAE187 /* Debug */,
+				BB448AC41AADB2D000CAE187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB448AC51AADB2D000CAE187 /* Build configuration list for PBXNativeTarget "ZDMetroLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB448AC61AADB2D000CAE187 /* Debug */,
+				BB448AC71AADB2D000CAE187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB448AC81AADB2D000CAE187 /* Build configuration list for PBXNativeTarget "ZDMetroLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB448AC91AADB2D000CAE187 /* Debug */,
+				BB448ACA1AADB2D000CAE187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB448A9E1AADB2D000CAE187 /* Project object */;
+}
