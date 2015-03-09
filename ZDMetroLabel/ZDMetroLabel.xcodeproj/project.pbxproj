@@ -13,6 +13,7 @@
 		BB448AB31AADB2D000CAE187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB448AB21AADB2D000CAE187 /* Images.xcassets */; };
 		BB448AB61AADB2D000CAE187 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB448AB41AADB2D000CAE187 /* LaunchScreen.xib */; };
 		BB448AC21AADB2D000CAE187 /* ZDMetroLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB448AC11AADB2D000CAE187 /* ZDMetroLabelTests.swift */; };
+		BB448ACC1AADB55B00CAE187 /* ZDMetroLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB448ACB1AADB55B00CAE187 /* ZDMetroLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BB448ABB1AADB2D000CAE187 /* ZDMetroLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDMetroLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB448AC01AADB2D000CAE187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB448AC11AADB2D000CAE187 /* ZDMetroLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDMetroLabelTests.swift; sourceTree = "<group>"; };
+		BB448ACB1AADB55B00CAE187 /* ZDMetroLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDMetroLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				BB448AB21AADB2D000CAE187 /* Images.xcassets */,
 				BB448AB41AADB2D000CAE187 /* LaunchScreen.xib */,
 				BB448AA91AADB2D000CAE187 /* Supporting Files */,
+				BB448ACB1AADB55B00CAE187 /* ZDMetroLabel.swift */,
 			);
 			path = ZDMetroLabel;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB448ACC1AADB55B00CAE187 /* ZDMetroLabel.swift in Sources */,
 				BB448AAE1AADB2D000CAE187 /* ViewController.swift in Sources */,
 				BB448AAC1AADB2D000CAE187 /* AppDelegate.swift in Sources */,
 			);
