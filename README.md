@@ -1,12 +1,12 @@
 # ZDMetroLabel
 A spinning UILabel inspired in old train time tables
 
-###USAGE
+###Usage
 Simply import the ZDMetroLabel.swift class to your project.
 Create a new ZDMetroLabel with an initial text in your UIViewController.
 Change the label text to make it animate.
 
-###CODE SAMPLE
+###Code Sample
 
 ```Swift
 override func viewDidAppear(animated: Bool) {
@@ -18,4 +18,6 @@ override func viewDidAppear(animated: Bool) {
   }
 ```
 
+###License
 
+[MIT License](https://github.com/nicky1525/ZDMetroLabel/blob/master/LICENSE)
