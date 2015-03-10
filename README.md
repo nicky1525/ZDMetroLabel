@@ -17,6 +17,12 @@ override func viewDidAppear(animated: Bool) {
         label.text = "Another text"
   }
 ```
+Now you can also modify the direction of the animation(DOWN/LEFT/UP/RIGHT) simply by adding this line of code: 
+
+```Swift
+label.direction = .DOWN //the direction you prefer
+```
+As it's a subclass of UILabel you can customize it as always with borders, corner radius and colors.
 
 ###License
 
