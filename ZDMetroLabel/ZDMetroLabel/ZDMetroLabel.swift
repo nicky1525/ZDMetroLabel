@@ -62,25 +62,27 @@ class ZDMetroLabel: UILabel {
     // override property setter
     override var text: String? {
         willSet {
-            setFrames(self.direction)
-            let oldText = createLabel(oldLabelInitialFrame)
-            oldText.text = self.text
-            addSubview(oldText)
-            let newText = createLabel(newLabelInitialFrame)
-            newText.text = newValue
-            addSubview(newText)
-            super.text = ""
-            super.textColor = UIColor.clearColor()
-            // cannot call super.text inside closure
-            var auxText = super.text
-            UIView.animateWithDuration(0.5, animations: { () -> Void in
-                oldText.frame = self.oldLabelFinalFrame
-                newText.frame = self.newLabelFinalFrame
-            }) { (Bool) -> Void in
-                newText.removeFromSuperview()
-                oldText.removeFromSuperview()
-                auxText = newValue
-                self.textColor = newText.textColor
+            if (newValue != self.text) {
+                setFrames(self.direction)
+                let oldText = createLabel(oldLabelInitialFrame)
+                oldText.text = self.text
+                addSubview(oldText)
+                let newText = createLabel(newLabelInitialFrame)
+                newText.text = newValue
+                addSubview(newText)
+                super.text = ""
+                super.textColor = UIColor.clearColor()
+                // cannot call super.text inside closure
+                var auxText = super.text
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    oldText.frame = self.oldLabelFinalFrame
+                    newText.frame = self.newLabelFinalFrame
+                    }) { (Bool) -> Void in
+                        newText.removeFromSuperview()
+                        oldText.removeFromSuperview()
+                        auxText = newValue
+                        self.textColor = newText.textColor
+                }
             }
         }
     }

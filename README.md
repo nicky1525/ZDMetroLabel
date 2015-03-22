@@ -15,6 +15,7 @@ override func viewDidAppear(animated: Bool) {
         label.text = "Some text"
         self.view.addSubview(label)
         label.text = "Another text"
+        label.clipsToBounds = true
   }
 ```
 Now you can also modify the direction of the animation(DOWN/LEFT/UP/RIGHT) simply by adding this line of code: 
